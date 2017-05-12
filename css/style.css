@@ -1,0 +1,192 @@
+.row {
+	margin-top: 62px;
+
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:rgba(255,255,255,0);
+
+}
+
+
+html { 
+  background: url(images/bg.png) no-repeat center left fixed; 
+  z-index:-1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.start {
+	width: 119px;
+	height: 40px;
+	border-radius: 4px;
+	background-color: #00a2f2;
+
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+    left: -135px;
+}
+
+.start:hover {
+	box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
+
+.menu {
+	width: 460px;
+	height: 768px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+i.material-icons.full {
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 14px;
+	height: 14px;
+}
+
+i.material-icons.close {
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 14px;
+	height: 14px;
+	float: right;
+}
+
+i.material-icons.step {
+	float: left;
+	font-size: 32px;
+	background-color: white;
+}
+
+i.material-icons.next {
+	float: right;
+    font-size: 32px;
+    margin-top: -50px;
+    margin-right: -12px;
+    z-index: 5;
+    color: rgba(0,0,0,0.0);
+	
+}
+
+.dropdown > .divider{
+	background-color: rgba(0,0,0,0);
+}
+
+.box, .box1{
+	width: 460px;
+	height: 86px;
+}
+
+.box1 {
+	margin-top: 16px;
+}
+
+.dropdown-menu>li:hover * {
+	color: rgb(0,0,0);
+    text-decoration: none; 
+    background-color: rgba(0,0,0,0.0);
+}
+
+
+
+.dropdown-menu>li>a:hover {
+	transition: background-color 0.3s ease;
+    color: #262626;
+    text-decoration: none;
+    background-color: #42CA49;
+}
+
+a:focus, a:hover {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+
+div.textbox {
+	width: 302px;
+	height: 53px;
+    word-wrap: break-word;
+    white-space: normal;
+    margin-left: 88px;
+}
+
+.line1 {
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.0;
+	letter-spacing: normal;
+	color: #000000;
+	margin-bottom: 5px;
+}
+
+.line2 {
+	margin-top: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.progress {
+	height: 32px;
+    width: 32px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 40px;
+    background-color: rgba(0, 0, 0, 0.0);
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+ 	box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+}
+
+.verticalLine {
+	float: left;
+	height: 72px;
+	border: solid 2px #666666;
+	z-index: -5;
+    position: absolute;
+    margin-left: 74px;
+}
+
+.verticalLine.base {
+	margin-top: 50px;
+}
+
+.verticalLine.one {
+	margin-top: 152px;
+}
+
+.verticalLine.two {
+	margin-top: 254px;
+}
+
+
+.verticalLine.three {
+	margin-top: 356px;
+}
+
+.verticalLine.four {
+	margin-top: 458px;
+}
+
+.verticalLine.five {
+	margin-top: 560px;
+}
+
+
+
+*/
